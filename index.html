@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="navbar">
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1" class="section">
+            <h2>About Us</h2>
+            <img src="images/image1.png" alt="Image for About Us" class="section-image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tincidunt nisi. Morbi
+                tincidunt, justo ut tristique bibendum, libero arcu scelerisque mi, a efficitur lectus nunc eu dolor.
+                Aenean volutpat nibh nec vehicula condimentum.</p>
+        </section>
+        <section id="section2" class="section">
+            <h2>Our Gallery</h2>
+            <div class="gallery">
+                <img src="images/image2.png" alt="Gallery Image 1" class="gallery-image">
+                <img src="images/image3.png" alt="Gallery Image 2" class="gallery-image">
+                <img src="images/image4.png" alt="Gallery Image 3" class="gallery-image">
+            </div>
+            <p>Explore our latest images through our gallery.</p>
+        </section>
+        <section id="section3" class="section">
+            <h2>Watch Our Video</h2>
+            <video controls class="section-video">
+                <source src="videos/sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Watch this video to learn more about what we do.</p>
+        </section>
+        <section id="section4" class="section">
+            <h2>Contact Us</h2>
+            <form id="contact-form" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <p>Feel free to reach out to us with any questions or comments.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Qays Safa. All rights reserved.</p>
+    </footer>
+    <button id="scrollToTopBtn">Scroll to Top</button>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
